@@ -4,7 +4,7 @@
     <!-- Background with rounded corners -->
     <item>
         <shape android:shape="rectangle">
-            <solid android:color="@color/Primry" />
+            <solid android:color="@color/third" />
             <corners
                 android:bottomRightRadius="50dp"
                 android:bottomLeftRadius="50dp"
@@ -20,7 +20,7 @@
         android:top="2dp"
         android:bottom="2dp">
         <shape android:shape="rectangle">
-            <solid android:color="@color/white" />
+            <solid android:color="@color/dark" />
             <corners
                 android:bottomRightRadius="50dp"
                 android:bottomLeftRadius="50dp"

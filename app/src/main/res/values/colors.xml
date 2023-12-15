@@ -3,7 +3,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="Primry">#2463A3</color>
-    <color name="dark">#103562</color>
+    <color name="third">#269D5A</color>
+
+    <color name="dark">#0E1734</color>
 
 
 </resources>

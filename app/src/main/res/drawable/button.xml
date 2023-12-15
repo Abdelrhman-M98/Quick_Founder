@@ -6,7 +6,7 @@
             <corners
                 android:radius="30dp" /> <!-- Adjust the radius as needed for the desired roundness -->
             <solid
-                android:color="@color/Primry" /> <!-- Set the button color -->
+                android:color="@color/third" /> <!-- Set the button color -->
         </shape>
     </item>
     <item android:state_enabled="false">
