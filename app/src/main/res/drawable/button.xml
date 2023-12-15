@@ -1,0 +1,21 @@
+<!-- res/drawable/rounded_button.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <shape
+            android:shape="rectangle">
+            <corners
+                android:radius="30dp" /> <!-- Adjust the radius as needed for the desired roundness -->
+            <solid
+                android:color="@color/Primry" /> <!-- Set the button color -->
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape
+            android:shape="rectangle">
+            <corners
+                android:radius="30dp" /> <!-- Adjust the radius as needed for the desired roundness -->
+            <solid
+                android:color="@color/white" /> <!-- Set the disabled button color -->
+        </shape>
+    </item>
+</selector>
