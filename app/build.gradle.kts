@@ -7,7 +7,7 @@ android {
     namespace = "com.example.quick_app"
     compileSdk = 34
 
-    buildFeatures{
+    buildFeatures {
         viewBinding = true
     }
 
