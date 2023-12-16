@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/dark"
+    android:elevation="0dp"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="20dp"
@@ -54,10 +55,10 @@
         android:hint="Password"
         android:importantForAccessibility="yes"
         android:inputType="textPassword"
-        android:textColor="@color/white"
         android:minHeight="48dp"
         android:padding="0dp"
         android:paddingStart="30dp"
+        android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,28 +66,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailEditText" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/loginButton"
-        android:layout_width="372dp"
-        android:layout_height="50dp"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="32dp"
-        android:background="@drawable/button"
+        android:backgroundTint="@color/third"
         android:gravity="center"
         android:text="LOGIN"
         android:textColor="@color/white"
         android:textSize="20dp"
+        app:cornerRadius="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/Sign_UPButton"
+        style="?android:attr/borderlessButtonStyle"
         android:layout_width="372dp"
         android:layout_height="50dp"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/button"
+        android:background="@null"
         android:gravity="center"
         android:text="SIGNUP"
         android:textColor="@color/white"

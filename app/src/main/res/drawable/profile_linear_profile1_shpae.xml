@@ -1,0 +1,14 @@
+<!-- rounded_rectangle.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="10dp" android:left="-20dp" android:right="-20dp">
+        <shape
+            android:shape="rectangle">
+            <solid android:color="@color/third" /> <!-- Change the color as needed -->
+            <corners
+                android:topLeftRadius="50dp"
+                android:topRightRadius="50dp"
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp" /> <!-- Adjust the top radius for rounded corners -->
+        </shape>
+    </item>
+</layer-list>

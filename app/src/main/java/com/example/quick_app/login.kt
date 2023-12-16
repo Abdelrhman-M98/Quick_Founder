@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
-class LoginActivity : AppCompatActivity() {
+class Login : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,13 +18,13 @@ class LoginActivity : AppCompatActivity() {
 
         loginButton.setOnClickListener {
             // Handle login button click
-            val intent = Intent(this@LoginActivity, MainActivity::class.java)
+            val intent = Intent(this@Login, MainActivity::class.java)
             startActivity(intent)
         }
 
         signUpButton.setOnClickListener {
             // Handle sign up button click
-            val intent = Intent(this@LoginActivity, sign_up::class.java)
+            val intent = Intent(this@Login, sign_up::class.java)
             startActivity(intent)
         }
     }

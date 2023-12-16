@@ -3,8 +3,6 @@ package com.example.quick_app
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager
-import androidx.fragment.app.FragmentTransaction
 import com.example.quick_app.databinding.ActivityMainBinding
 
 
@@ -18,14 +16,14 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        replaceFragment(profile_f())
+        replaceFragment(HomeFrag())
         binding.bottomNavigationView.background = null
         binding.bottomNavigationView.setOnItemSelectedListener { item ->
             when (item.itemId) {
-                R.id.home -> replaceFragment(profile_f())
-                R.id.Search -> replaceFragment(profile_f())
-                R.id.Notification -> replaceFragment(profile_f())
-                R.id.Profile -> replaceFragment(profile_f())
+                R.id.home -> replaceFragment(HomeFrag())
+                R.id.Search -> replaceFragment(SearchFrag())
+                R.id.Notification -> replaceFragment(NotifFrag())
+                R.id.Profile -> replaceFragment(ProfileFrag())
             }
             true
         }
