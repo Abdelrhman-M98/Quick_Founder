@@ -2,4 +2,35 @@
     <string name="app_name">Quick_App</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <array name="your_array_resource">
+            <item>Wallet</item>
+            <item>Keys</item>
+            <item>Phone</item>
+            <item>Watch</item>
+            <item>Glasses</item>
+            <item>Laptop</item>
+            <item>Backpack</item>
+            <item>Umbrella</item>
+            <item>Headphones</item>
+            <item>Jewelry</item>
+            <item>Passport</item>
+            <item>Book</item>
+            <item>Camera</item>
+            <item>Charger</item>
+            <item>Sunglasses</item>
+            <item>Hat</item>
+            <item>Water Bottle</item>
+            <item>Notebook</item>
+            <item>Tablet</item>
+            <item>Shopping Bag</item>
+            <item>Handbag</item>
+            <item>Flash Drive</item>
+            <item>Gloves</item>
+            <item>Scarf</item>
+            <item>Snacks</item>
+            <item>ID Card</item>
+            <item>Toothbrush</item>
+            <item>Medication</item>
+
+    </array>
 </resources>

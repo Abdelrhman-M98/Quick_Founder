@@ -107,8 +107,8 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/Sign_upButton2"
-        android:layout_width="372dp"
-        android:layout_height="50dp"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="36dp"
         android:backgroundTint="@color/third"
